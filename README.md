@@ -7,23 +7,6 @@
   <br>
 </h1>
 
-<h4 align="center">Incredibly fast crawler designed for OSINT.</h4>
-
-<p align="center">
-  <a href="https://github.com/s0md3v/Photon/releases">
-    <img src="https://img.shields.io/github/release/s0md3v/Photon.svg">
-  </a>
-  <a href="https://pypi.org/project/photon/">
-    <img src="https://img.shields.io/badge/pypi-@photon-red.svg?style=style=flat-square"
-         alt="pypi">
-  </a>
-  <a href="https://github.com/s0md3v/Photon/issues?q=is%3Aissue+is%3Aclosed">
-      <img src="https://img.shields.io/github/issues-closed-raw/s0md3v/Photon.svg">
-  </a>
-  <a href="https://travis-ci.com/s0md3v/Photon">
-    <img src="https://img.shields.io/travis/com/s0md3v/Photon.svg">
-  </a>
-</p>
 
 ![demo](https://image.ibb.co/kQSUcz/demo.png)
 
@@ -73,7 +56,7 @@ Still, crawling can be resource intensive but Photon has some tricks up it's sle
 Photon can be launched using a lightweight Python-Alpine (103 MB) Docker image.
 
 ```bash
-$ git clone https://github.com/s0md3v/Photon.git
+$ git clone https://github.com/alex14324/Photon.git
 $ cd Photon
 $ docker build -t photon .
 $ docker run -it --name photon photon:latest -u google.com
@@ -103,6 +86,5 @@ You can contribute in following ways:
 
 Please read the [guidelines](https://github.com/s0md3v/Photon/wiki/Guidelines) before submitting a pull request or issue.
 
-Do you want to have a conversation in private? Hit me up on my [twitter](https://twitter.com/s0md3v/), inbox is open :)
+Do you want to have a conversation in private? Hit me up on my [twitter](https://twitter.com/Alex_14324/), inbox is open :)
 
-**Photon** is licensed under [GPL v3.0 license](https://www.gnu.org/licenses/gpl-3.0.en.html)
